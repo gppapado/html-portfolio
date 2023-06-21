@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+#home {
+    height: 70px;
+    width: 124.44;
+}
+
+.char {
+    border: 1px solid red;
+    display: block;
+    width: 150px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    top: 170px;
+    left: 640px;
+    display: none;
+}
+
+.hover:hover .char {
+    display: block;
+}
+
+body {
+    background-image: url("../gifs/gif2.gif");
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#social {
+    position: absolute;
+    right: 20px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100%;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: xx-large;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 8px;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+}
+
+
+li {
+    float: left;
+    display: block;
+
+
+
+}
+
+@font-face {
+    font-family: "middle";
+    src: url("/fonts/middle.ttf");
+}
+
+a {
+    font-family: "middle";
+}
+
+#box1 {
+    font-family: "middle";
+    height: 250px;
+    width: 750px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 25PX;
+    text-align: center;
+
+}
+
+#box2 {
+    font-family: "middle";
+    height: 200px;
+    width: 550px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 80px;
+    border-radius: 25PX;
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+#olomazi {
+    position: absolute;
+    height: 700px;
+    right: 40px;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(221, 73, 14);
+}
+
+.aragorn {
+    font-family: "middle";
+    margin-left: 820px;
+    height: 100px;
+    width: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 25PX;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 900px;
+
+
+}
+
+.img {
+    margin-top: 25px;
+    height: 600px;
+    margin-left: 200px;
+    float: left;
+}
+
+.ara {
+    font-family: "middle";
+    font-size: 25px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 800px;
+    color: white;
+    float: right;
+}
+
+.plaisio {
+    background-color: rgba(75, 71, 71, 0.5);
+    height: 750px;
+    width: 1820px;
+    margin-left: 50px;
+}
+
+#epomeno1 {
+    margin-left: 1700px;
+    font-size: 40px;
+
+}
+
+#epomeno2 {
+    margin-left: 1700px;
+    font-size: 40px;
+
+}
+
+#epomeno3 {
+    margin-left: 1700px;
+    font-size: 40px;
+
+}
+
+#previous1 {
+    font-size: 40px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#previous2 {
+    font-size: 40px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+#previous3 {
+    font-size: 40px;
+    margin-left: 5px;
+    position: absolute;
+}
